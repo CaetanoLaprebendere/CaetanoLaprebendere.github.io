@@ -1,0 +1,123 @@
+body {
+	font-family: 'Roboto', sans-serif;
+
+	}
+
+
+h1 {
+    letter-spacing: 28px;
+    text-align: center;
+    padding: 2cm 3cm 1cm 3cm;
+    color: black; 
+   -webkit-transition: color 1s ease-in;
+   -moz-transition: color 1s ease-in;
+   -o-transition: color 1s ease-in;
+   -ms-transition: color 1s ease-in;
+   
+   
+} 
+
+h1:hover {
+   color: #e99708;
+}
+
+#gallery { 
+    text-align: center; 
+}
+
+#clear {
+    clear: both;
+}
+
+.photogallery {
+    border-radius: 5px;
+    width: 400px;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 0;
+    -webkit-transition: width .1s; 
+    transition: width .3s;
+    transition-timing-function: linear;
+}
+
+.photogallery:hover {
+    width: 450px;
+}
+
+#bandcamp {
+    display: inline-block;
+    margin-right: 3%;
+
+}
+
+#navbar {  
+    display: inline-block;
+    vertical-align: middle;
+    width: 30%;
+}
+
+
+.inline {
+    display: inline-block;
+
+}
+
+ul {
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+
+li  {
+    color: #e99708;
+    list-style: none; 
+    display: inline-block;
+    margin-left: 14px;
+   -webkit-transition: color 1s ease-in;
+   -moz-transition: color 1s ease-in;
+   -o-transition: color 1s ease-in;
+   -ms-transition: color 1s ease-in;
+   transition: color 1s ease-in;
+} 
+
+li:hover {
+   color: black;
+}
+
+a { 
+  text-decoration: none;
+ }
+
+#navbar-and-bandcamp {
+    text-align: center;
+    margin-bottom: 6%;
+}
+
+.instagram-media, .instagram-media-rendered {
+    margin-top: 5%;
+
+}
+
+#instagram-media {
+    display: flex;
+    flex-direction: row;
+    /*width: 75.579%;*/
+
+}
+
+#footer {
+    clear: left;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 65%;  
+    vertical-align: bottom;
+    margin-bottom: 15%,
+
+}
+
+#spotify {
+    float: right;
+    vertical-align: text-top;
+    margin-right: 2%;
+
+}
+
