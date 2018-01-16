@@ -1,0 +1,143 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	}
+
+
+h1 {
+    letter-spacing: 28px;
+    text-align: left;
+    padding: 1cm 1cm 1cm 2cm;
+    float: left;
+    color: black; 
+   -webkit-transition: color 1s ease-in;
+   -moz-transition: color 1s ease-in;
+   -o-transition: color 1s ease-in;
+   -ms-transition: color 1s ease-in;   
+} 
+
+h1:hover {
+   color: #e99708;
+}
+
+#gallery { 
+    text-align: left;
+    clear: both; 
+    width: 77vw;
+}
+
+#clear {
+    clear: both;
+}
+
+.photogallery {
+    border-radius: 1%;
+    width: 34vw;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 1vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    -webkit-transition: width .1s; 
+    transition: width .3s;
+    transition-timing-function: ease;
+    display: inline-block;
+}
+
+.photogallery:hover {
+    width: 37vw;
+}
+
+
+.container {
+    display: inline-block;
+    position: relative;
+}
+
+.container:hover .photogallery {
+  width: 440px;
+}
+
+.container:hover .containertext {
+  font-size: 52px;
+  text-shadow: .12vw .12vw black;
+}
+
+.containertext {
+    margin: 0;
+    top: 55%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);   
+    font-family: Roboto; color: white; font-size: 30px;
+    -webkit-transition: font-size 2s ease;
+    -moz-transition: font-size 1s ease;
+    -o-transition: font-size 1s ease;
+    -ms-transition: font-size 1s ease;
+    transition: font-size 1s ease;
+}
+
+#bandcamp {
+    display: inline-block;
+    text-align: center;
+    align-self: right;
+    position: fixed;
+    right: 0px;
+    top: 1.5%;
+    margin-left: 1%;
+
+
+}
+
+#navbar {  
+    display: inline-block;
+    vertical-align: middle;
+    width: 30%;
+    float:left;
+}
+
+
+.inline {
+    display: inline-block;
+
+}
+
+ul {
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+
+li  {
+    color: #e99708;
+    list-style: none; 
+    display: inline-block;
+    margin-left: 14px;
+   -webkit-transition: color 1s ease-in;
+   -moz-transition: color 1s ease-in;
+   -o-transition: color 1s ease-in;
+   -ms-transition: color 1s ease-in;
+   transition: color 1s ease-in;
+} 
+
+li:hover {
+   color: black;
+}
+
+a { 
+  text-decoration: none;
+ }
+
+#navbar {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+#footer {
+    clear: left;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 65%;  
+    vertical-align: bottom;
+    margin-bottom: 1%,
+
+}
+

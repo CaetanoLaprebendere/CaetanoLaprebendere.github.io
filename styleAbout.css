@@ -1,0 +1,100 @@
+body {
+	font-family: 'Roboto', sans-serif;
+  margin: none;
+	}
+
+#navbar { 
+   width: 70vw;
+   display: flex;
+   align-items: top;
+   justify-content: space-between;
+   height: 8%;
+ }
+
+h3 {
+    color: black;
+    left: 0;
+   -webkit-transition: color 1s ease-in;
+   -moz-transition: color 1s ease-in;
+   -o-transition: color 1s ease-in;
+   -ms-transition: color 1s ease-in;   
+   margin: 0;
+   display: inline-block;
+} 
+
+h3:hover {
+   color: #e99708;
+}
+
+li  {   
+    color: #e99708;
+    display: inline-block;
+    padding-right: 5%;
+    max-width: 100%;
+   -webkit-transition: color 1s ease-in;
+   -moz-transition: color 1s ease-in;
+   -o-transition: color 1s ease-in;
+   -ms-transition: color 1s ease-in;
+   transition: color 1s ease-in;
+} 
+
+li:hover {
+   color: black;
+}
+
+#picture_and_bio {
+  display: inline-block;
+}
+
+#profilepictures {
+overflow-y: scroll;
+max-width: 35vw;
+height: 41.2vw;
+display: inline-block;
+margin-top: .4vw;
+
+}
+
+
+#profilepicture {
+    max-width: 35vw;
+    max-height: auto;
+    position: left;
+    margin-bottom: 1vw;
+}
+
+#bio { 
+   margin-right: 5vw;
+   margin-left: 1vw;
+   text-align: left;
+   padding-right: 2vw;
+   overflow-y: scroll;
+   max-width: 40vw;
+   height: 41.2vw;
+   display: inline-block;
+   margin-top: .3vw;
+   vertical-align: top;
+ }
+
+#bandcamp {
+    display: inline-block;
+    text-align: center;
+    align-self: right;
+    position: fixed;
+    right: 0px;
+    top: 1.5%;
+    margin-left: 1%;
+
+}
+
+@media(min-width: 20px) {
+
+}
+
+ul  {
+  width: 304px;
+}
+
+a { 
+  text-decoration: none;
+ }
