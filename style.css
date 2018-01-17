@@ -4,22 +4,19 @@ body {
   }
 
 h1 {
-    letter-spacing: 28px;
+    letter-spacing: 2.4vw;
     text-align: center;
     padding: 2cm 3cm 1cm 3cm;
     color: black; 
-    -webkit-transition: color 1s ease-in;
-    -moz-transition: color 1s ease-in;
-    -o-transition: color 1s ease-in;
-    -ms-transition: color 1s ease-in;   
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+    -ms-transition: all 1s ease-in;   
 } 
 
 h1:hover {
     color: #e99708;
-}
-
-h1:hover body{
-    background-color: lavender;
+    letter-spacing: .5vw;
 }
 
 #gallery { 
@@ -83,7 +80,7 @@ a {
     margin-bottom: 6%;
 }
 
-.instagram-media, .instagram-media-rendered {
+/*.instagram-media, .instagram-media-rendered {
     margin-top: 5%;
 }
 
@@ -91,14 +88,14 @@ a {
     display: flex;
     flex-direction: row;
 }
-
+*/
 #footer {
     clear: left;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 65%;  
     vertical-align: bottom;
-    margin-bottom: 15%,
+    padding: 10vw, 0, 0, 10vw;
 }
 
 .photogallery {
@@ -107,8 +104,8 @@ a {
     height: auto;
     object-fit: contain;
     margin-bottom: 0;
-    -webkit-transition: width .1s; 
-    transition: width .3s;
+    -webkit-transition: width .6s; 
+    transition: width .6s;
     transition-timing-function: linear;
 }
 
